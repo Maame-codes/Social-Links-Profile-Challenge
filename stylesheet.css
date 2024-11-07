@@ -1,0 +1,27 @@
+body {
+  background-color:#141414;
+}
+
+/* To change all colors in paragraphs */
+p {
+  color:#ffffff;
+}
+
+/* Change color in heading */
+h1{
+  color: #ffffff;
+}
+
+/* Styling for the actual card */
+.main-card{
+  background-color:#1f1f1f;
+}
+
+/* Styling for avatar image */
+#image-div img{
+  border-radius: 999px;
+}
+
+#person-details #person-name{
+  color:#c4f82a;
+}
