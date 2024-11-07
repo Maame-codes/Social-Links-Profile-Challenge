@@ -1,27 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&display=swap");
+
 body {
-  background-color:#141414;
+  background-color: #141414;
 }
 
-/* To change all colors in paragraphs */
-p {
-  color:#ffffff;
-}
-
-/* Change color in heading */
-h1{
-  color: #ffffff;
+* {
+  box-sizing: border-box;
+  font-optical-sizing: auto;
+  font-family: Figtree;
 }
 
 /* Styling for the actual card */
-.main-card{
-  background-color:#1f1f1f;
+.main-card {
+  width: 384px;
+  height: 611px;
+  background-color: #1f1f1f;
+  border-radius: 12px;
+
+  /* To align div vertically and horizontally */
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* To center entire text */
+.main-card #center-txt {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* Styling texts */
+p,
+h1 {
+  color: #ffffff;
+  text-align: center;
 }
 
 /* Styling for avatar image */
-#image-div img{
+#image-div img {
   border-radius: 999px;
+  /* centers  image */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#person-details #person-name{
-  color:#c4f82a;
+/* Styling for person name */
+#person-details #person-name {
+  font-size: 24px;
+}
+/* Styling for person location */
+#person-details #person-location {
+  color: #c4f82a;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* Quoted text */
+.center-txt #quoted-txt {
+  font-size: 14px;
+}
+
+
+/* GitHub */
+.social-links #link-1 {
+  width: 304px;
+  height: 45px;
+  background-color: #333333;
+  border-radius: 12px;
+  font-size:14px;
+  font-weight: 700;
+  /* center texts vertically and horizontally */
+  display: inline-block;
+  margin-top: 24px;
+}
+
+/* Frontend Mentor */
+.social-links #link-2 {
+  width: 304px;
+  height: 45px;
+  background-color: #333333;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 700;
+  display: inline-block;
+  margin-top: 12px;
+}
+
+/* LinkedIn */
+.social-links #link-3 {
+  width: 304px;
+  height: 45px;
+  background-color: #333333;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 700;
+  display: inline-block;
+  margin-top: 12px;
+}
+
+/* Twitter */
+.social-links #link-4 {
+  width: 304px;
+  height: 45px;
+  background-color: #333333;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 700;
+  display: inline-block;
+  margin-top: 12px;
+}
+
+/* Instagram */
+.social-links #link-5 {
+  width: 304px;
+  height: 45px;
+  background-color: #333333;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 700;
+  display: inline-block;
+  margin-top: 12px;
 }
