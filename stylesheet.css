@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&display=swap");
 body {
   background-color: #141414;
 }
@@ -38,7 +38,6 @@ body {
 /* Styling texts */
 p,
 h1 {
-  color: #ffffff;
   text-align: center;
 }
 
@@ -54,38 +53,42 @@ h1 {
 /* Styling for person name */
 #person-details #person-name {
   font-size: 24px;
+  color: #ffffff;
 }
+
 /* Styling for person location */
 #person-details #person-location {
   color: #c4f82a;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 700;
+  
 }
-
-/* Quoted text */
-.center-txt #quoted-txt {
-  font-size: 14px;
-}
-
-
 
 /* GitHub */
-.social-links #link-1 {
+.social-links .link-1 {
   width: 304px;
   height: 45px;
+  color: #ffffff;
   background-color: #333333;
   border-radius: 12px;
-  font-size:14px;
+  font-size: 14px;
   font-weight: 700;
   /* center texts vertically and horizontally */
   display: inline-block;
   margin-top: 24px;
 }
 
+.social-links div:hover {
+  background-color: #c4f82a;
+  color: #141414;
+  cursor:default;
+  transition: ease;
+}
 /* Frontend Mentor */
-.social-links #link-2 {
+.social-links .link-2 {
   width: 304px;
   height: 45px;
+  color: #ffffff;
   background-color: #333333;
   border-radius: 12px;
   font-size: 14px;
@@ -95,9 +98,10 @@ h1 {
 }
 
 /* LinkedIn */
-.social-links #link-3 {
+.social-links .link-3 {
   width: 304px;
   height: 45px;
+  color: #ffffff;
   background-color: #333333;
   border-radius: 12px;
   font-size: 14px;
@@ -107,10 +111,11 @@ h1 {
 }
 
 /* Twitter */
-.social-links #link-4 {
+.social-links .link-4 {
   width: 304px;
   height: 45px;
   background-color: #333333;
+  color: #ffffff;
   border-radius: 12px;
   font-size: 14px;
   font-weight: 700;
@@ -119,10 +124,11 @@ h1 {
 }
 
 /* Instagram */
-.social-links #link-5 {
+.social-links .link-5 {
   width: 304px;
   height: 45px;
   background-color: #333333;
+  color: #ffffff;
   border-radius: 12px;
   font-size: 14px;
   font-weight: 700;
